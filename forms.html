@@ -1,0 +1,66 @@
+<!-- Formulário-->
+<html>
+
+    <head>
+        <title>Exercício 5</title>
+        <meta charset="UTF-8"/>
+ 
+    </head>
+
+    <body>
+     
+        <form action="envio.html"
+        method="get">
+        <h1><b>Cadastro de interesses em cursos<br> técnicos e palestras</b></h1>
+            <fieldset> <legend><b>Dados pessoais</b></legend>
+
+                <pre>
+<b>Nome:</b> <input type="text" name="nome" size="100" placeholder="Informe o nome completo">
+                    
+<b>Endereço:</b> <input type="text" name="endereco" size="100" placeholder="Logradouro, N.º- compl.">
+                    
+<b>E-mail:</b> <input type="text" name="email" size="100" placeholder="email@provedor.com">
+    
+<b>Sexo:</b> <label>Masculino <input type="radio" name="sex" value="M"> </label> <label>Feminino <input type="radio" name="sex" value="F"></label>
+                           
+<b>Escolaridade:</b> <select name="escola">
+                        <option value="fundin">Fundamental incompleto</option>
+                        <option value="funcom">Fundamental completo</option>
+                        <option value="medin">Médio incompleto </option>
+                        <option value="medcom">Médio completo </option>
+                        <option value="supin">Superior incompleto </option>
+                        <option value="supcom">Superior completo </option>
+                        <option value="posin">Pós-Graduação incompleto </option>
+                        <option value="poscom">Pós-Graduação completo </option>
+                        </select>
+    
+<b>Currículo resumido:</b>
+<textarea name="cur_resu" cols="90" rows="6" placeholder="Informe um resumo do seu currículo"></textarea>
+                </pre>
+            </fieldset>
+            <fieldset> <legend><b>Áreas de interesse</b></legend>
+                <pre>
+<label>Tecnologia da informação <input type="checkbox" name="chk" value="ti"></label>         <label>Biologia <input type="checkbox" name="chk" value="bio"></label>
+<label>Comunicação <input type="checkbox" name="chk" value="comu"></label>                      <label>Meio Ambiente <input type="checkbox" name="chk" value="meio_amb"></label>
+<label>Engenharia <input type="checkbox" name="chk" value="eng"></label>                       <label>História <input type="checkbox" name="chk" value="hist"></label>
+<label>Psicologia <input type="checkbox" name="chk" value="psico"></label>
+                </pre>
+                
+
+            </fieldset>
+            
+            <fieldset>
+                <form method="post">
+                    <input type="image" src ="https://icons-for-free.com/iconfiles/png/512/32px+Free+Set+Download-1320568210130207016.png" title="Salvar" alt="Submit" style="max-widht:20px; max-height:20px;" border="1"> &nbsp; 
+                    &nbsp;
+                    <input type="reset" name="lmp" value="limpar">
+                </form>
+            </fieldset>
+        
+        </form>
+
+    </body>
+
+   
+
+</html>
